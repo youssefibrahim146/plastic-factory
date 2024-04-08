@@ -18,6 +18,7 @@ export 'package:plastic_factory/views/screens/accounts_screen.dart';
 export 'package:plastic_factory/views/screens/control_board_screen.dart';
 export 'package:plastic_factory/views/screens/customers_screen.dart';
 export 'package:plastic_factory/views/screens/home_screen.dart';
+export 'package:plastic_factory/views/screens/login_screen.dart';
 export 'package:plastic_factory/views/screens/sales_screen.dart';
 export 'package:plastic_factory/views/screens/suppliers_screen.dart';
 export 'package:plastic_factory/views/widgets/gap_widget.dart';
