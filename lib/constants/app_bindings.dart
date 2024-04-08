@@ -1,4 +1,5 @@
 import 'package:plastic_factory/constants/app_imports.dart';
+import 'package:plastic_factory/controllers/login_screen_controller.dart';
 
 class AppBindings extends Bindings {
   @override
@@ -41,6 +42,10 @@ class AppBindings extends Bindings {
     );
     Get.lazyPut(
       () => HomeController(),
+      fenix: true,
+    );
+    Get.lazyPut(
+      () => LoginScreenController(),
       fenix: true,
     );
   }

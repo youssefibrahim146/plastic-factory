@@ -7,6 +7,7 @@ class AppStrings {
   static const detailsOfDebtsRoute = "/detailsOfDebts";
   static const supplyOfDebtsRoute = "/supplyOfDebts";
   static const newSaleRoute = "/newSale";
+  static const loginRoute = "/login";
   static const homeRoute = "/home";
 
   /// Signs
@@ -54,9 +55,16 @@ class AppStrings {
   static const suppliersArabicText = "الموردين";
   static const accountsArabicText = "الحسابات";
   static const exitArabicText = "تسجيل الخروج";
+  static const loginArabicText = "تسجيل الدخول";
   static const customersArabicText = "العملاء";
   static const salesArabicText = "المبيعات";
 
   /// English Text's
   static const egpEnglishText = "EGP";
+  static const userNameArabicText = "اسم المستخدم";
+  static const passwordArabicText = "كلمة المرور";
+
+  /// assets
+
+  static const loginImage = "assets/icons/login_image.png";
 }

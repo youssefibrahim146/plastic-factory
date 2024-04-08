@@ -1,4 +1,5 @@
 import 'package:plastic_factory/constants/app_imports.dart';
+import 'package:plastic_factory/views/screens/login_screen.dart';
 
 class AppPages {
   static List<GetPage> appPages = [
@@ -41,6 +42,10 @@ class AppPages {
       transitionDuration: const Duration(
         milliseconds: 250,
       ),
+    ),
+    GetPage(
+      name: AppStrings.loginRoute,
+      page: () => const LoginScreen(),
     ),
   ];
 }
