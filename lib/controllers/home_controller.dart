@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:plastic_factory/constants/app_imports.dart';
 
 class HomeController extends GetxController {
-  RxInt currentItem = RxInt(1);
+  RxInt currentItem = RxInt(0);
   List<DrawerItemModel> drawerItems = [
     DrawerItemModel(
       1,

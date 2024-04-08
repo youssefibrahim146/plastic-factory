@@ -5,5 +5,9 @@ class DrawerItemModel {
   String name;
   Widget child;
 
-  DrawerItemModel(this.num, {required this.name, required this.child});
+  DrawerItemModel(
+    this.num, {
+    required this.name,
+    required this.child,
+  });
 }
