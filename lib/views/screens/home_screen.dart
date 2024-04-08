@@ -120,7 +120,8 @@ class HomeScreen extends GetWidget<HomeController> {
                 ),
                 child: Obx(
                   () {
-                    return controller.drawerItems[controller.currentItem.value].child;
+                    DrawerItemModel item = controller.drawerItems[controller.currentItem.value];
+                    return item.child;
                   },
                 ),
               ),

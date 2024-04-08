@@ -4,6 +4,18 @@ class AppBindings extends Bindings {
   @override
   void dependencies() {
     Get.lazyPut(
+      () => TotalDebtsOfEachClientController(),
+      fenix: true,
+    );
+    Get.lazyPut(
+      () => DetailsOfDebtsController(),
+      fenix: true,
+    );
+    Get.lazyPut(
+      () => SupplyOfDebtsController(),
+      fenix: true,
+    );
+    Get.lazyPut(
       () => ControlBoardController(),
       fenix: true,
     );
@@ -17,6 +29,14 @@ class AppBindings extends Bindings {
     );
     Get.lazyPut(
       () => AccountsController(),
+      fenix: true,
+    );
+    Get.lazyPut(
+      () => NewSaleController(),
+      fenix: true,
+    );
+    Get.lazyPut(
+      () => SalesController(),
       fenix: true,
     );
     Get.lazyPut(
